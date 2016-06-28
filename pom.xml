@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eciuca</groupId>
     <artifactId>dropwizard-seed</artifactId>
-    <version>1.9-SNAPSHOT</version>
+    <version>1.11-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -134,7 +134,7 @@
             <id>releases</id>
             <build>
                 <plugins>
-                    <plugin>
+                    <!--plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
                         <version>${nexus-staging-maven-plugin.version}</version>
@@ -152,7 +152,7 @@
                             <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
                             <skipStaging>true</skipStaging>
                         </configuration>
-                    </plugin>
+                    </plugin-->
                 </plugins>
             </build>
         </profile>
