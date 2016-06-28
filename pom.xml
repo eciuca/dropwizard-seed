@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.eciuca</groupId>
     <artifactId>dropwizard-seed</artifactId>
-    <version>1.13</version>
+    <version>1.14-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -200,7 +200,7 @@
         <url>scm:git:git@github.com:eciuca/dropwizard-seed.git</url>
         <connection>scm:git:git@github.com:eciuca/dropwizard-seed.git</connection>
         <developerConnection>scm:git:git@github.com:eciuca/dropwizard-seed.git</developerConnection>
-        <tag>v1.13</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
